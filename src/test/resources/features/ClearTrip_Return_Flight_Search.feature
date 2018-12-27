@@ -30,6 +30,6 @@ Feature: Flight Booking
 
     Examples: 
       | Browser  | TripType | FromCity  | ToCity   | DepartOn  |ReturnOn  | AdultsCount   | ChildrenCount   | InfantsCount  |ClassOfTravel|
-      | Mozilla  | RoundTrip| Pune 			| Mumbai	 |20-12-2018 |29-12-2018|2							| 1								|	1							|Economy			|
+      | Mozilla  | RoundTrip| Pune 			| Mumbai	 |20-02-2019 |29-03-2019|2							| 1								|	1							|Economy			|
     
     

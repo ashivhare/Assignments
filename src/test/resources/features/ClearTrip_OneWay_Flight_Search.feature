@@ -30,5 +30,5 @@ Feature: Flight Booking
 
     Examples: 
       | browser  | TripType | FromCity  | ToCity   | DepartOn   | AdultsCount   | ChildrenCount   | InfantsCount  |ClassOfTravel|
-      | Mozilla  | OneWay		| Pune 			| Mumbai	 |20-12-2018	|2							| 1								|	1							|Economy			|
+      | Mozilla  | OneWay		| Pune 			| Mumbai	 |20-02-2019	|2							| 1								|	1							|Economy			|
     

@@ -5,7 +5,9 @@ import org.openqa.selenium.support.PageFactory;
 import com.cleartrip.pom.basetest.BaseTest;
 import com.cleartrip.pom.pages.LaunchPage;
 import com.cleartrip.pom.pages.SearchFlightPage;
+import com.cleartrip.pom.pages.SearchFlightResultsPage;
 import com.cucumber.listener.Reporter;
+import com.relevantcodes.extentreports.LogStatus;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -70,7 +72,11 @@ public class ClearTrip_OneWay_Flight_Search_Test extends BaseTest {
 
 	@Then("^User gets available flights for the given details$")
 	public void user_gets_available_flights_for_the_given_details() throws Throwable {
-		sfPage.searchFlights();
+		//Search Flights
+		page = sfPage.searchFlights();
+		if(!(page instanceof SearchFlightResultsPage)) {
+			test.log(LogStatus.PASS, "Flight search results are displayed properly");
+		}
 
 	}
 

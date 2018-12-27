@@ -37,11 +37,11 @@
 		</repository>
 	</repositories>
 	<dependencies>
-<dependency>
-    <groupId>com.puppycrawl.tools</groupId>
-    <artifactId>checkstyle</artifactId>
-    <version>8.11</version>
-</dependency>
+		<dependency>
+			<groupId>com.puppycrawl.tools</groupId>
+			<artifactId>checkstyle</artifactId>
+			<version>8.11</version>
+		</dependency>
 		<!-- POI -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -246,6 +246,12 @@
 			<groupId>com.smartbear.soapui</groupId>
 			<artifactId>soapui</artifactId>
 			<version>5.2.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
 		</dependency>
 	</dependencies>
 </project>

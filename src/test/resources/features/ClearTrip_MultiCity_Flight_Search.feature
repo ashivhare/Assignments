@@ -30,6 +30,6 @@ Feature: Login Action
 
     Examples: 
       | Browser  | TripType | FromCity1  | ToCity1   | DepartOn1  |FromCity2  |  ToCity2   | DepartOn2 |FromCity3  |  ToCity3   | DepartOn3 | AdultsCount   | ChildrenCount   | InfantsCount  |ClassOfTravel|
-		  | Mozilla  | MultiCity| Pune 	     | Mumbai	   |20-12-2018  |Mumbai		  | Delhi		   |29-12-2018 |Delhi		   | Chennai	  | 12-06-2019| 2			        |	1		        		| 1             |Economy	  |
+		  | Mozilla  | MultiCity| Pune 	     | Mumbai	   |20-02-2019  |Mumbai		  | Delhi		   |29-03-2019 |Delhi		   | Chennai	  | 12-06-2019| 2			        |	1		        		| 1             |Economy	  |
     
     
